@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
     <!-- Font Awesome CDN Link -->
     <link
       rel="stylesheet"
@@ -16,9 +17,14 @@
       type="text/css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
-
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+  .sora{
+    font-family: "Sora", serif;;
+  }
+</style>
   </head>
-  <body>
+  <body class="sora">
     <header>
       <nav class="px-5 md:px-36 overflow-hidden">
         <!-- nav start -->
@@ -116,7 +122,7 @@
     <main>
       <!-- Service section Start -->
       <section class="mb-36 px-5 md:px-36 overflow-hidden">
-        <h2 class="text-[#179800] mb-5 text-5xl mt-20">Services</h2>
+        <h2 class="text-[#179800] mb-5 text-5xl font-bold mt-20">Services</h2>
         <!-- Card Section start -->
         <div class="md:flex justify-between">
           <!-- Card 1 -->
@@ -182,7 +188,7 @@
       <section
         class="bg-[#EFEBE3] mb-36 px-5 md:px-36 md:py-36 overflow-hidden"
       >
-        <h2 class="text-[#179800] my-7 text-5xl">Popular Products</h2>
+        <h2 class="text-[#179800] my-7 font-bold text-5xl">Popular Products</h2>
         <!--Popular card section -->
         <div class="md:flex">
           <!-- primary cars -->
@@ -324,7 +330,7 @@
       <!-- Bonus Section Start -->
        <section class="Bonus">
         <div class="bg-[#179800] py-24 sm:py-32">
-          <h3 class="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl text-center mb-10 font-bold">Users All Over The World</h3>
+          <h3 class="order-first text-3xl font-semibold font-bold tracking-tight text-white sm:text-5xl text-center mb-10 md:font-bold">Users All Over The World</h3>
           <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <dl class="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
               <div class="mx-auto flex max-w-xs flex-col gap-y-4">
@@ -343,13 +349,13 @@
           </div>
         </div>
         
-       </section>t
+       </section>
 <!-- Arrival And Offer Start -->
       <section class="arrival mb-[400px] px-5 md:px-36 overflow-hidden">
-        <h2 class="text-[rgb(23,152,0)] mb-12 text-5xl mt-20">Arrival & Offers</h2>
+        <h2 class="text-[rgb(23,152,0)] mb-12 font-bold text-5xl mt-20">Arrival & Offers</h2>
         <div class="md:flex gap-3">
-          <div class="w-full h-auto md:w-4/6 md:h-[70vh] bg-[#115414] flex justify-around items-center rounded-xl p-5 mb-5">
-            <div class=" flex flex-col gap-12">
+          <div class="w-full h-auto md:w-4/6 md:h-[50vh] bg-[#115414] flex justify-around items-center rounded-xl p-5 mb-5">
+            <div class=" flex flex-col md:gap-12 gap-3">
               <img src="Images/dawat-logo.png" alt="Dawat logo">
               <button class="btn bg-[#63B76D] text-white hover:text-[#115414]">cook Exotic Dishes</button>
               <h3 class="text-2xl font-bold text-center text-[#fff]">Up to <Span style="color: white;">20% OFF</Span></h3>
@@ -357,8 +363,8 @@
             <div><img class="w-full" src="Images/dawat-mock-up.png" alt=""></div>
             
           </div>
-          <div class="w-full h-auto md:w-2/6 md:h-[70vh] bg-[#102861] flex justify-around items-center rounded-xl p-5 ">
-            <div class=" flex flex-col md:gap-12">
+          <div class="w-full h-auto md:w-2/6 md:h-[50vh] bg-[#102861] flex justify-around items-center rounded-xl p-5 ">
+            <div class=" flex flex-col md:gap-4 gap-1">
               <img src="Images/india-gate-logo.png" alt="Dawat logo">
               <button class="btn bg-[#2A4D97] text-white hover:text-[#2A4D97]">cook Exotic Dishes</button>
               <h3 class="text-2xl font-bold text-center text-[#fff]">Up to <Span style="color: white;">20% OFF</Span></h3>
@@ -383,7 +389,7 @@
           <div class="md:w-2/5">
             <img class="object-fill" src="Images/vegetable-busket.png" alt="vegetable-busket">
           </div>
-          <div class="md:w-3/5 p-3 flex items-center gap-4 md:flex flex-col md:gap-7">
+          <div class="md:w-3/5 p-3 flex items-center gap-4 md:flex md:items-start flex-col md:gap-7">
             <h3 class="text-5xl font-bold text-center
             ">Get Grocery News</h3>
             <p class="text-black text-lg text-center">Exclusive training tips, ticks, product deals and more.</p>
